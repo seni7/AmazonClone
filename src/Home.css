@@ -1,0 +1,17 @@
+.home .Home__images{
+    width: 100%;
+    object-fit: contain;
+    z-index: -1;
+    margin-bottom: -500px;
+    filter: brightness(80%);
+    mask-image:linear-gradient(to bottom, rgb(202, 202, 202),rgba(0,0,0,0));
+}
+.home .home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.header__clearLink{
+    text-decoration: none;
+}
